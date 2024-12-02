@@ -21,5 +21,6 @@ if pokeInfo:
     print(f"ID: {pokeInfo["id"]}")
     print(f"Height: {pokeInfo["height"]}")
     print(f"Weight: {pokeInfo["weight"]}")
+    print(f"type: {pokeInfo["types"]}")
 
 
