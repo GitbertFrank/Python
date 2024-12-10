@@ -39,5 +39,4 @@ for i, line in enumerate(nospacedata):
                                             if nospacedata[i + 1][j + 1] == "M":# check bottom right for M
                                                 if nospacedata[i + 1][j - 1] == "M":# check bottom left for M
                                                     xmascounter += 1
-           
 print(xmascounter)
